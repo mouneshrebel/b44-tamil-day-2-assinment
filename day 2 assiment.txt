@@ -1,0 +1,138 @@
+
+JSON - Introduction
+HTML
+JSON
+JSON stands for JavaScript Object Notation
+
+JSON is a text format for storing and transporting data
+
+JSON is "self-describing" and easy to understand
+
+JSON Example
+This example is a JSON string:
+
+'{"name":"John", "age":30, "car":null}'
+It defines an object with 3 properties:
+
+name
+age
+car
+Each property has a value.
+
+If you parse the JSON string with a JavaScript program, you can access the data as an object:
+
+let personName = obj.name;
+let personAge = obj.age;
+
+
+JSON stands for JavaScript Object Notation
+JSON is a lightweight data-interchange format
+JSON is plain text written in JavaScript object notation
+JSON is used to send data between computers
+JSON is language independent 
+The JSON format is syntactically similar to the code for creating JavaScript objects. Because of this, a JavaScript program can easily convert JSON data into JavaScript objects.
+
+Since the format is text only, JSON data can easily be sent between computers, and used by any programming language.
+
+JavaScript has a built in function for converting JSON strings into JavaScript objects:
+
+JSON.parse()
+
+JavaScript also has a built in function for converting an object into a JSON string:
+
+JSON.stringify()
+
+You can receive pure text from a server and use it as a JavaScript object.
+
+You can send a JavaScript object to a server in pure text format.
+
+You can work with data as JavaScript objects, with no complicated parsing and translations.
+ 
+ CREATE RESUME JSON FORMAT
+
+//1.Objects
+//Properties and Methods
+//Few Simple Examples
+//JSON
+//API :rest countries 
+//Call By value and Reference
+//K:v ->Objects
+//An Object is a Key value pair structure
+//How does it Look Like??
+//Syntax:var Objectname={key:value};
+
+//For ex:
+var student={
+name:"Mounesh",
+gender: "male",
+nationality:"india",
+age:"26",
+Dob:"1997",
+address:"chennai"
+
+};
+
+ DIFFRERNCE BETWEEN WINDOW,SCREEN, DOCUMENT IN JAVA SCRIPT
+
+THE WINDOW.
+
+The window object is the topmost object of the DOM hierarchy. It represents a browser window or frame that displays the contents of the webpage. 
+Whenever a window appears on the screen to display the contents of the document, the window object is created. 
+
+types of windows 
+Picture Windows.
+Casement Windows ,Bay Windows.
+Single-Hung Windows.
+Double-Hung Windows.
+Awning Windows.
+Horizontal Sliding Windows.
+
+It represents a browser window or frame that displays the contents of the webpage It is the very first object that is loaded in the browser.
+It is the object of the browser Global objects, functions, and variables of JavaScript are members of the window object.
+
+THE SCREEN.
+
+ The screen object, implementing the Screen interface, is a special object for inspecting properties of the screen on which the current window is being rendered.
+ There are many properies available on this object that can be used to determine and set some properies of the client's screen. For example, Screen.
+The Window property screen returns a reference to the screen object associated with the window. The screen object, implementing the Screen interface, is a special object for inspecting properties of the screen on which the current window is being rendered. 
+Window screen willUse window. innerWidth and window.innerHeight to get the current screen size of a page. window screen prevents insects flying or crawling into a house without obstructing the view or airflow through the window. 
+
+The window.screen object can be written without the window prefix.
+Properties:
+screen.width
+screen.height
+screen.availWidth
+screen.availHeight
+screen.colorDepth
+screen.pixelDepth
+
+THE DOCUMENT.
+
+The document object represent a web page that is loaded in the browser. By accessing the document object, we can access the element in the HTML page. With the help of document objects, we can add dynamic content to our web page. The document object can be accessed with a window.document or just document
+
+Types of documents
+HTML files.
+Microsoft PowerPoint presentations.
+Microsoft Word documents.
+Plain text documents.
+PDFs.
+
+It represents any HTML document or web page that is loaded in the browser is loaded inside the window
+
+It is the object of window property All the tags, elements with attributes in HTML are part of the DOCUMENT.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
